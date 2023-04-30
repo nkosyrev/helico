@@ -57,7 +57,7 @@ listener.start()
 
 
 while True:
-    os.system("cls") 
+    os.system("clear") 
     field.process_helicopter(helico, clouds)
     helico.print_stats()
     field.print_map(helico, clouds)
